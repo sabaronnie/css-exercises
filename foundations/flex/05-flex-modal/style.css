@@ -22,18 +22,6 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
-.icon {
-  color: royalblue;
-  font-size: 26px;
-  font-weight: 700;
-  background: lavender;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .close-button {
   background: #eee;
@@ -66,4 +54,42 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+.continue, .cancel {
+  margin-top: 15px;
+}
+.header {
+  font-weight: bold;
+}
+
+.icon {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  flex-shrink: 0;
+  /* flex-basis: 40%; */
+}
+
+.modal {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.c2 {
+  display: flex;
+  justify-content: space-between;
 }
